@@ -1,4 +1,5 @@
 # ElectraTweakInstaller
+This is a fork of the original ElectraTweakInstaller. This fork adds a nice GUI to assist in installing tweaks with ease.
 
 This is in bash, so linux and osX (and unix) or use bash for windows.
 This is just a simple tool I made for myself, you can use it too!
