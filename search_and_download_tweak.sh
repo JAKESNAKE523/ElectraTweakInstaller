@@ -57,3 +57,4 @@ echo "Downloading..."
 echo $DEB
 #curl --silent "$DEB" > "$( echo $DEB | sed 's@.*/@@' )"
 wget $DEB
+echo "End of File Reached. If you reached this without any other output, then you may need to install the dependencies(curl)"
