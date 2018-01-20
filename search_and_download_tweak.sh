@@ -3,7 +3,7 @@ TWEAKS=$(curl --silent https://sheets.googleapis.com/v4/spreadsheets/1YptWW_bBdE
 LINE=$(echo "$TWEAKS" | grep -ni $1)
 NUM_LINES=$(echo "LINE" | wc -l)
 if [[ "$NUM_LINES" != 1 ]]; then
-  echo "Found more than one resault: "
+  echo "Found more than one result: "
   echo "$LINE"
   exit
 fi
